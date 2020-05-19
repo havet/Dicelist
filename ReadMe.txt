@@ -1,21 +1,21 @@
     Copyright (C) 2020 Per Tunedal, Stockholm, Sweden
 ....Author: Per Tunedal <info@tunedal.nu>
 
-....This file is part of Tunedal Dice Lists. Word lists for making secure 
+....This file is part of Dicelist. Word lists for making secure 
 ....passwords with the help of 4-5 dices.
 
-    Tunedal Dice Lists is free software: you can redistribute it and/or modify
+    Dicelist is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    Tunedal Dice Lists is distributed in the hope that it will be useful,
+    Dicelist is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with Tunedal Dice Lists.  If not, see <https://www.gnu.org/licenses/>.
+    along with Dicelist.  If not, see <https://www.gnu.org/licenses/>.
 
 Tunedals 4 dice list
 ====================
