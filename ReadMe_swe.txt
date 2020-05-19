@@ -17,8 +17,8 @@
     You should have received a copy of the GNU General Public License
     along with Dicelist.  If not, see <https://www.gnu.org/licenses/>.
 
-Tunedals 4 dice list
-====================
+4 dice list
+===========
 
 Användning
 ----------
