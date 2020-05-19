@@ -1,0 +1,76 @@
+    Copyright (C) 2020 Per Tunedal, Stockholm, Sweden
+....Author: Per Tunedal <info@tunedal.nu>
+
+....This file is part of Tunedal Dice Lists. Word lists for making secure 
+....passwords with the help of 4-5 dices.
+
+    Tunedal Dice Lists is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Tunedal Dice Lists is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Tunedal Dice Lists.  If not, see <https://www.gnu.org/licenses/>.
+
+Tunedals 4 dice list
+====================
+
+Usage
+-----
+Use 4 dices to randomly get a combination of digits between 1111 and 6666, that 
+corresponds to a word in the list. The combination 1234 corresponds e.g. to the 
+word "avog" and the combination 5316 corresponds to the word "roa". You need to 
+get at least 8 words to form a secure password. Separate the words in some way, 
+e.g. with space, some number, some symbol or by writing the first or last 
+letter in upper case.
+
+Security
+--------
+A passphrase consisting of 8 random words from this list has slightly stronger 
+security than a password consisting of 12 random characters choosen from a set 
+consisting of upper and lower case characters (a-z), numbers and symbols.
+
+Rational
+--------
+A passphrase of 8 random words is far more easy to remember, than a password 
+of 12 random characters. 
+
+Description
+-----------
+Many years ago I intended to make a Swedish version of the DiceWare* word
+list, without the strange numbers and combinations of characters. However,
+it turned out to be difficult to find words, thus I put the projekt aside.
+Now, I realized the possibility to create a new word list based on 
+Apertiums new Swedish word list apertium-swe.swe.dix (For more information 
+on Apertium, please see www.apertium.org) Apertium has to be distributed 
+under the license GPL version 2, or later. 
+
+Now, I was inspired by the alternative word lists compiled by The 
+Electronic Frontier Foundation (EFF) in the year 2016. They have tried to 
+avoid the inclusion of rare words, words that are hard to spell and vulgar 
+words. Further more, they have made a shorter list of short and easy words for 
+4 dices, as a complement to the word list for 5 dices. The short list requires 
+at least 8 words in a password, opposed to only 6 words if you use the longer 
+list.
+
+Thus, I started with this short list with words of at most 4 characters, not 
+containing the letters å, ä or ö. I began with filtering the words from 
+Apertium, with the help of my own list of correctly spelled words, most of 
+them with high frequency. Then I manually removed rare words, partly by the 
+help of a word frequenzy list. Additionnally, I have removed homonyms and 
+vulgar words.
+
+On the contrary, I haven't excluded words that might be the begining or the 
+end of other words. Hence, you should write the words with a separator, e.g. 
+space, between them. Otherwise, the number of possible combinations will 
+decrease slightly, and thus the security as well.
+
+Per Tunedal
+
+* Diceware is a trademark of A G Reinhold. 
+http://world.std.com/~reinhold/diceware.html
