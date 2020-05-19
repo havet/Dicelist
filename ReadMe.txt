@@ -70,6 +70,14 @@ end of other words. Hence, you should write the words with a separator, e.g.
 space, between them. Otherwise, the number of possible combinations will 
 decrease slightly, and thus the security as well.
 
+Contribute a word list
+----------------------
+Contributions are wellcome! Make a wordlist in your own language. It's fairly 
+easy if your language is used in Apertium. See www.apertium.org
+Otherwise, you can gather a lot of text to make a large corpus and create a 
+frequenzy list. Remove long and infrequent words. Nouns and verbs are a first 
+hand choice.
+
 Per Tunedal
 
 * Diceware is a trademark of A G Reinhold. 

@@ -70,6 +70,14 @@ slut på andra ord. Därför bör orden skrivas med en avgränsing, t.ex. mellan
 emellan dem. Annars minskar antalet möjliga kombinationer en aning och därmed 
 också säkerheten.
 
+Bidra med en ordlista
+---------------------
+Bidrag är välkomna! Gör en ordlista på ditt eget språk. Det är ganska enkelt 
+om ditt språk används i Apertium. Se www.apertium.org
+Annars kan du samla ihop en massa text till en stor corpus och sedan göra en 
+frekvensordlista. Stryk de långa och de ovanliga orden. Substantiv och verb 
+väljs i första hand.
+
 Per Tunedal
 
 * Diceware är ett varumärke som tillhör A G Reinhold. 
