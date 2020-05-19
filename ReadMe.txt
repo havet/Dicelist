@@ -1,8 +1,8 @@
     Copyright (C) 2020 Per Tunedal, Stockholm, Sweden
-....Author: Per Tunedal <info@tunedal.nu>
+    Author: Per Tunedal <info@tunedal.nu>
 
-....This file is part of Dicelist. Word lists for making secure 
-....passwords with the help of 4-5 dices.
+    This file is part of Dicelist. Word lists for making secure 
+    passwords with the help of 4-5 dices.
 
     Dicelist is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
