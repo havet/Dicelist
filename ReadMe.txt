@@ -62,7 +62,7 @@ Thus, I started with this short list with words of at most 4 characters, not
 containing the letters å, ä or ö. I began with filtering the words from 
 Apertium, with the help of my own list of correctly spelled words, most of 
 them with high frequency. Then I manually removed rare words, partly by the 
-help of a word frequenzy list. Additionnally, I have removed homonyms and 
+help of a word frequenzy list. Additionnally, I have removed homophones and 
 vulgar words.
 
 On the contrary, I haven't excluded words that might be the begining or the 

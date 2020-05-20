@@ -62,7 +62,7 @@ Jag började därför med att göra denna korta lista med ord på högst 4 bokst
 som inte innehåller å, ä eller ö. Först filtrerade jag orden från Apertium 
 efter min egen lista på rättstavade ord, där de flesta av orden är 
 högfrekventa. Därefter har jag manuellt rensat bort svåra ord, delvis med 
-hjälp av en frekvensordlista. Jag har även rensat bort homonymer och fula 
+hjälp av en frekvensordlista. Jag har även rensat bort homofoner och fula 
 ord.
 
 Jag har däremot inte uteslutit ord som samtidigt kan råka utgöra början eller 
