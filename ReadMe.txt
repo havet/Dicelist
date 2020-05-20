@@ -32,7 +32,7 @@ letter in upper case.
 Security
 --------
 A passphrase consisting of 8 random words from this list has slightly stronger 
-security than a password consisting of 12 random characters choosen from a set 
+security than a password consisting of 12 random characters chosen from a set 
 consisting of upper and lower case characters (a-z), numbers and symbols.
 
 Rational
@@ -72,7 +72,7 @@ decrease slightly, and thus the security as well.
 
 Contribute a word list
 ----------------------
-Contributions are wellcome! Make a wordlist in your own language. It's fairly 
+Contributions are welcome! Make a wordlist in your own language. It's fairly 
 easy if your language is used in Apertium. See www.apertium.org
 Otherwise, you can gather a lot of text to make a large corpus and create a 
 frequenzy list. Remove long and infrequent words. Nouns and verbs are a first 
