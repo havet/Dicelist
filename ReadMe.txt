@@ -40,8 +40,31 @@ Rational
 A passphrase of 8 random words is far more easy to remember, than a password 
 of 12 random characters. 
 
+5 dice list
+===========
+
+Usage
+-----
+Use 5 dices to randomly get a combination of digits between 11111 and 66666, that 
+corresponds to a word in the list. The combination 12345 corresponds e.g. to the 
+word "avig" and the combination 53164 corresponds to the word "samsas". You need to 
+get at least 6 words to form a secure password. Separate the words in some way, 
+e.g. with space, some number, some symbol or by writing the first or last 
+letter in upper case.
+
+Security
+--------
+A passphrase consisting of 6 random words from this list has approximately 
+the same security as a password consisting of 12 random characters chosen 
+from a set consisting of upper and lower case characters (a-z), numbers and symbols.
+
+Rational
+--------
+A passphrase of 6 random words is far more easy to remember, than a password 
+of 12 random characters. 
+
 Description
------------
+===========
 Many years ago I intended to make a Swedish version of the DiceWare* word
 list, without the strange numbers and combinations of characters. However,
 it turned out to be difficult to find words, thus I put the projekt aside.
@@ -58,7 +81,7 @@ words. Further more, they have made a shorter list of short and easy words for
 at least 8 words in a password, opposed to only 6 words if you use the longer 
 list.
 
-Thus, I started with this short list with words of at most 4 characters, not 
+Thus, I started with the short list with words of at most 4 characters, not 
 containing the letters å, ä or ö. I began with filtering the words from 
 Apertium, with the help of my own list of correctly spelled words, most of 
 them with high frequency. Then I manually removed rare words, partly by the 
@@ -70,8 +93,16 @@ end of other words. Hence, you should write the words with a separator, e.g.
 space, between them. Otherwise, the number of possible combinations will 
 decrease slightly, and thus the security as well.
 
+Later, I finished the longer list for 5 dices with words of at most 6 characters.
+This list is not as thoroughly checked as the shorter list for 4 dices. The 
+words are checked against checklists with e.g. potentially offensive words and 
+spell checked with Hunspell. If you find words you don't like, feel free to make a 
+pull request. All nouns and verbs I got from Apertium, exept those filtered out, 
+are already used. Some adjectives are used as well. You can find new words to 
+choose among in the file adjectives_not_used.txt 
+
 Contribute a word list
-----------------------
+======================
 Contributions are welcome! Make a wordlist in your own language. It's fairly 
 easy if your language is used in Apertium. See www.apertium.org
 Otherwise, you can gather a lot of text to make a large corpus and create a 
