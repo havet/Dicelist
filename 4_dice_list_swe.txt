@@ -1,31 +1,31 @@
-    Copyright (C) 2020 Per Tunedal, Stockholm, Sweden
-....Author: Per Tunedal <info@tunedal.nu>
-
-....This file is part of Dicelist. Wordlists for making secure passwords 
-....with the help of 4-5 dices.
-
-    Dicelist is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    Dicelist is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with Tunedal Dice Lists.  If not, see <https://www.gnu.org/licenses/>.
-
-Usage
------
-Use 4 dices to randomly get a combination of digits between 1111 and 6666, that 
-corresponds to a word in the list. The combination 1234 corresponds e.g. to the 
-word "avog" and the combination 5316 corresponds to the word "roa". You need to 
-get at least 8 words to form a secure password. Separate the words in some way, 
-e.g. with space, some number, some symbol or by writing the first or last 
-letter in upper case.
-
+    Copyright (C) 2020 Per Tunedal, Stockholm, Sweden	
+....Author: Per Tunedal <info@tunedal.nu>	
+	
+....This file is part of Dicelist. Wordlists for making secure passwords 	
+....with the help of 4-5 dices.	
+	
+    Dicelist is free software: you can redistribute it and/or modify	
+    it under the terms of the GNU General Public License as published by	
+    the Free Software Foundation, either version 3 of the License, or	
+    (at your option) any later version.	
+	
+    Dicelist is distributed in the hope that it will be useful,	
+    but WITHOUT ANY WARRANTY; without even the implied warranty of	
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the	
+    GNU General Public License for more details.	
+	
+    You should have received a copy of the GNU General Public License	
+    along with Tunedal Dice Lists.  If not, see <https://www.gnu.org/licenses/>.	
+	
+Usage	
+-----	
+Use 4 dices to randomly get a combination of digits between 1111 and 6666, that 	
+corresponds to a word in the list. The combination 1234 corresponds e.g. to the 	
+"word ""avog"" and the combination 5316 corresponds to the word ""roa"". You need to "	
+get at least 8 words to form a secure password. Separate the words in some way, 	
+e.g. with space, some number, some symbol or by writing the first or last 	
+letter in upper case.	
+	
 1111	aber
 1112	adel
 1113	adla
@@ -35,15 +35,15 @@ letter in upper case.
 1121	agg
 1122	agn
 1123	agna
-1124	aids
-1125	akt
-1126	akta
-1131	akut
-1132	al
-1133	alfa
-1134	alg
-1135	alm
-1136	aln
+1124	akt
+1125	akta
+1126	akut
+1131	al
+1132	alfa
+1133	alg
+1134	alm
+1135	aln
+1136	alv
 1141	amma
 1142	ana
 1143	and
@@ -465,22 +465,22 @@ letter in upper case.
 3115	hipp
 3116	hiss
 3121	hit
-3122	hiv
-3123	hiva
-3124	ho
-3125	holk
-3126	hona
-3131	hop
-3132	hopp
-3133	hord
-3134	horn
-3135	hot
-3136	hota
-3141	hov
-3142	hud
-3143	hugg
-3144	hund
-3145	hus
+3122	hiva
+3123	ho
+3124	holk
+3125	hona
+3126	hop
+3131	hopp
+3132	hord
+3133	horn
+3134	hot
+3135	hota
+3136	hov
+3141	hud
+3142	hugg
+3143	hund
+3144	hus
+3145	hut
 3146	huta
 3151	hutt
 3152	huv
@@ -580,7 +580,7 @@ letter in upper case.
 3426	koja
 3431	kok
 3432	koka
-3433	koks
+3433	kola
 3434	koll
 3435	kolt
 3436	kolv
@@ -873,14 +873,14 @@ letter in upper case.
 4635	paus
 4636	peka
 4641	peng
-4642	pest
-4643	peta
-4644	pi
-4645	piff
-4646	piga
-4651	pigg
-4652	pik
-4653	pil
+4642	peta
+4643	pi
+4644	piff
+4645	piga
+4646	pigg
+4651	pik
+4652	pil
+4653	pilk
 4654	pill
 4655	pilt
 4656	pina
