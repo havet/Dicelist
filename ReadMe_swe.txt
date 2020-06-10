@@ -17,9 +17,22 @@
     You should have received a copy of the GNU General Public License
     along with Dicelist.  If not, see <https://www.gnu.org/licenses/>.
 
+Råd
+===
+Listan för 5 tärningar innehåller 7776 ord på 2-6 bokstäver, medan listan 
+för 4 tärningar innehåller 1296 ord på 2-4 bokstäver.
+
+Använd i första hand listan för 5 tärningar. Då behöver du bara komma ihåg 
+6 ord. Om det är viktigt för dig att orden är korta och inte så ovanliga, 
+välj istället den korta listan för 4 tärningar. Då behöver du istället komma 
+ihåg 8 ord, men de är mer vardagliga.
+
+Om du får några ord du inte känner igen, eller vet vad de betyder: slå upp dem 
+i en ordbok eller sök på internet för att ta reda på vad de står för. Då blir 
+de lättare att komma ihåg för dig.
+
 4 dice list
 ===========
-
 Användning
 ----------
 Använd 4 tärningar för att slumpa fram en sifferkombination mellan 1111 och 
@@ -41,8 +54,44 @@ Motivering
 En lösenmening med 8 slumpade ord är väldigt mycket lättare att komma ihåg, 
 än ett lösenord med 12 slumpade tecken.
 
+4 dice list
+===========
+
+Användning
+----------
+Använd 4 tärningar för att slumpa fram en sifferkombination mellan 1111 och 
+6666, som motsvarar ett ord i listan. Kombinationen 1234 motsvarar t.ex. ordet 
+"avog", medan kombinationen 5316 motsvarar ordet "roa". Du behöver slumpa fram 
+minst 8 ord för att få ett säkert lösenord. Skilj orden åt på något sätt, t.ex. 
+med mellanslag, med någon siffra, med något tecken eller genom att skriva första 
+eller sista bokstaven med versaler.
+
+Säkerhet
+--------
+En lösenmening bestående av 8 slumpade ord from denna lista har något högre 
+säkerhet än ett lösenord som består av 12 slumpade tecken valda från en 
+uppsättning bestående av versala och gemena bokstäver (a-z), samt siffror 
+(0-9) och specialtecken.
+
+Motivering
+----------
+En lösenmening med 6 slumpade ord är väldigt mycket lättare att komma ihåg, 
+än ett lösenord med 12 slumpade tecken.
+
+5 dice list
+===========
+Användning
+----------
+Använd 5 tärningar för att slumpa fram en sifferkombination mellan 11111 och 
+66666, som motsvarar ett ord i listan. Kombinationen 12345 motsvarar t.ex. ordet 
+"avig", medan kombinationen 53164 motsvarar ordet "samsas". Du behöver slumpa fram 
+minst 6 ord för att få ett säkert lösenord. Skilj orden åt på något sätt, t.ex. 
+med mellanslag, med någon siffra, med något tecken eller genom att skriva första 
+eller sista bokstaven med versaler.
+
+
 Beskrivning
------------
+===========
 För många år sedan tänkte jag göra en svensk version av DiceWare-ordlistan*, 
 utan de konstiga siffer- och bokstavskombinationerna. Det var emellertid 
 besvärligt att hitta ord, så jag lade det åt sidan. Nu insåg jag att det 
@@ -70,8 +119,21 @@ slut på andra ord. Därför bör orden skrivas med en avgränsing, t.ex. mellan
 emellan dem. Annars minskar antalet möjliga kombinationer en aning och därmed 
 också säkerheten.
 
+Senare gjorde jag klart den långa listan för 5 tärningar, med ord som är högst 
+6 bokstäver långa. Den listan är inte lika noga kontrollerad som den kortare 
+listan för 4 tärningar. Orden är kontrollerade mot stopplistor med t.ex. 
+potentiellt anstötliga ord och homofoner. Dessutom är stavningen kontrollerad 
+med Hunspell. 
+
+Föreslå förbättringar
+=====================
+Om du hittar ord som du inte tycker om, gör gärna en pull request med ditt 
+förslag till ändring. Alla substantiv och verb jag fått från Apertium, utom de 
+bortfiltrerade, är redan använda i den långa listan. Några adjektiv är också 
+använda. Du kan hitta nya ord att välja bland i filen adjectives_not_used.txt
+
 Bidra med en ordlista
----------------------
+=====================
 Bidrag är välkomna! Gör en ordlista på ditt eget språk. Det är ganska enkelt 
 om ditt språk används i Apertium. Se www.apertium.org
 Annars kan du samla ihop en massa text till en stor corpus och sedan göra en 
