@@ -17,9 +17,22 @@
     You should have received a copy of the GNU General Public License
     along with Dicelist.  If not, see <https://www.gnu.org/licenses/>.
 
+Advice
+======
+The list for 5 dices contains 7776 words of 2-6 letters, while the list 
+for 4 dices contains 1296 words of 2-4 letters.
+
+Preferably, use the list for 5 dices. Then you have to remember just 6 words. 
+If it's important to you that the words are short and not uncommon, use the 
+short list for 4 dices instead. Then you have to remember 8 words, but they are 
+more current.
+
+If you get some words you don't recognize in your password, or don't know what 
+they mean: look them up in a dictionnary or search for them on the internet to 
+learn what they stand for. They will then be more easy for you to remember.
+
 4 dice list
 ===========
-
 Usage
 -----
 Use 4 dices to randomly get a combination of digits between 1111 and 6666, that 
@@ -42,7 +55,6 @@ of 12 random characters.
 
 5 dice list
 ===========
-
 Usage
 -----
 Use 5 dices to randomly get a combination of digits between 11111 and 66666, that 
@@ -93,13 +105,17 @@ end of other words. Hence, you should write the words with a separator, e.g.
 space, between them. Otherwise, the number of possible combinations will 
 decrease slightly, and thus the security as well.
 
-Later, I finished the longer list for 5 dices with words of at most 6 characters.
+Later, I finished the longer list for 5 dices with words of at most 6 letters.
 This list is not as thoroughly checked as the shorter list for 4 dices. The 
-words are checked against checklists with e.g. potentially offensive words and 
-spell checked with Hunspell. If you find words you don't like, feel free to make a 
-pull request. All nouns and verbs I got from Apertium, exept those filtered out, 
-are already used. Some adjectives are used as well. You can find new words to 
-choose among in the file adjectives_not_used.txt 
+words are checked against stop-lists with e.g. potentially offensive words and 
+homophones. Additionnally, they are spell checked with Hunspell.
+
+Propose ameliorations
+=====================
+If you find words you don't like, feel free to make a pull request with your 
+proposal for change. All nouns and verbs I got from Apertium, exept those 
+filtered out, are already used in the long list. Some adjectives are used as 
+well. You can find new words to choose among in the file adjectives_not_used.txt 
 
 Contribute a word list
 ======================
