@@ -16,9 +16,16 @@
 	
     You should have received a copy of the GNU General Public License	
     along with Tunedal Dice Lists.  If not, see <https://www.gnu.org/licenses/>.	
-	
-Usage	
------	
+
+Credits
+-------
+This work is based on the original idea from A G Reinhold in 1995:
+http://world.std.com/~reinhold/diceware.html 
+and partly on EFF:s ideas from 2016: 
+https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases
+
+Usage
+-----
 Use 4 dice to randomly get a combination of digits between 1111 and 6666, that 	
 corresponds to a word in the list. The combination 1234 corresponds e.g. to the 	
 "word ""avog"" and the combination 5316 corresponds to the word ""roa"". You need to "	
