@@ -1,0 +1,110 @@
+How to add a language
+=====================
+
+How to add words from Apertium
+------------------------------
+1. Install Linux. On Windows 10 you can install Ubuntu (command line) as an app. 
+Search for it in Microsoft store.
+
+2. Install Apertium:
+https://wiki.apertium.org/wiki/Installation
+
+3. Download the dictionary you need from GitHub. All released languages:
+https://github.com/apertium/apertium-languages
+
+Choose your language and look for a file like this:
+apertium-swe.swe.dix  (Swedish)
+or
+apertium-spa.spa.dix (Spanish)
+
+If you cannot find files like those above for your language, please write to
+Apertium-stuff@lists.sourceforge.net for advice. You can write in your own 
+language, if you like. But English is the lingua franca. You will get fast 
+and friendly help from users and developers.
+
+4. Use lt-expand to get all the forms for a word, filter out the lemmas you want 
+with the help of grep, sed, awk. Sort with removal of duplicates with sort -u.
+
+In the examples below, I've chosen words of 2-6 letters. You might need to 
+include longer words. Please, change the awk expression as needed.
+
+nouns
+-----
+lt-expand apertium-swe.swe.dix | grep -E "[^<:>]+:[^<:>]+<n>" | sed -E 's/[^<:>]+:([^<:>]+).*/\1/g' | awk 'length($0)<7 && length($0)>1' | sed 's/[¹²³]//g' | grep -v "\-$" | grep -v " " | grep -v [ÀÁÂÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÖØÙÚÛÜàáâäåæçèéêëìíîïñòóôöøùúûüŠš] |sort -u > nouns.txt
+
+I got some very strange Swedish "nouns":
+arna
+arnas
+arnas-
+ars
+
+Kevin Brubeck Unhammer suggests a solution:
+
+"Probably the sed not being able to hand lines like
+
+DJ:arna:DJ<n><ut><pl><def>                                                                     
+
+You may have to grep out lines with two colons first."
+(Apertium-stuff@lists.sourceforge.net)
+
+verbs
+-----
+lt-expand apertium-swe.swe.dix | grep -E "[^<:>]+:[^<:>]+<vblex>" | sed -E 's/[^<:>]+:([^<:>]+).*/\1/g' | awk 'length($0)<7 && length($0)>1' | sed 's/[¹²³]//g' | grep -v "\-$" | grep -v " " | grep -v [ÀÁÂÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÖØÙÚÛÜàáâäåæçèéêëìíîïñòóôöøùúûüŠš] |sort -u > nouns.txt
+
+Adjectives
+----------
+lt-expand apertium-swe.swe.dix | grep -E "[^<:>]+:[^<:>]+<adj>" | sed -E 's/[^<:>]+:([^<:>]+).*/\1/g' | awk 'length($0)<7 && length($0)>1' | sed 's/[¹²³]//g' | grep -v "\-$" | grep -v " " | grep -v [ÀÁÂÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÖØÙÚÛÜàáâäåæçèéêëìíîïñòóôöøùúûüŠš] | sort -u > adjektiv.txt
+
+Among the adjectives I got e.g. the following verbs:
+abbreviera
+abdikera
+abonnera
+abortera
+
+Kevin Brubeck Unhammer suggests a solution:
+"Participles of verbs get tagged <adj><pp> / <adj><pprs>. You can grep
+them out.""
+(Apertium-stuff@lists.sourceforge.net)
+
+Work around
+-----------
+I solved the problems an other way, I didn't expand the words. I got the 
+lemmas directly (much faster):
+
+grep "lm=" apertium-swe.swe.dix | grep "__adj" | sed 's/\"><.*//' | sed 's/<e lm=\"//' | awk 'length($0)<7 && length($0)>1' | grep -v " " | grep -v "\." | grep -v [ÀÁÂÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÖØÙÚÛÜàáâäåæçèéêëìíîïñòóôöøùúûüŠš] | sort -u > adjektiv.txt
+
+Kevin Brubeck Unhammer pointed out that "lm=" is a comment. It's safer to 
+expand the words:
+
+"... it can get you lemmas
+even where they're not marked with lm (the lm attribute is just treated
+as a comment by apertium code, whereas the <r> part of the entry is
+actually used, thus more likely to be checked for correctness".
+(Apertium-stuff@lists.sourceforge.net)
+
+How to choose words
+===================
+Make lists of unwanted words, and filter them out with grep:
+
+cat dicewords.txt | -v -wFf offensive.txt > dicewords_clean.txt
+
+Check the spelling in a program of your choice. I used Notepad++
+Remove misspelled* and rare words.
+
+If you still got too many words, make a random selection with shuf:
+
+shuf -n 7776 dicewords_clean.txt | sort -u > dicewords.txt
+
+How to make the dice list
+=========================
+You have to add the dice combinations in front of the words. You have 
+the combinations in the files 4_dice_numbers.txt and 5_dice_numbers.txt
+
+I used Libre Office Calc to join the numbers with the words. I saved 
+the file as csv.
+
+Create the text file (e.g. 5_dice_list_swe_v1.txt) first. The ods and 
+odt files are just for user convenience, and can be omitted.
+
+* As a courtesy to the Apertium community, you might like to contribute 
+a correction of the misspelled words, when you are finished.
