@@ -46,7 +46,7 @@ hand choice. Please, look in the folder 'resources' for more information.
 
 This work is based on the original idea from A G Reinhold in 1995:
 http://world.std.com/~reinhold/diceware.html
-and EFF:s ideas from 2016:
+and partly on EFF:s ideas from 2016:
 https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases
 
 Per Tunedal
