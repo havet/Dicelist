@@ -24,7 +24,7 @@ to randomly get a combination of digits between 1111 and 6666, that
 corresponds to a word in the short list.
 
 If you get some words you don't recognize in your password, or don't know what 
-they mean: look them up in a dictionnary or search for them on the internet to 
+they mean: look them up in a dictionary or search for them on the internet to 
 learn what they stand for. They will then be more easy for you to remember.
 
 A passphrase consisting of 6 random words from the default list or 8 random 
@@ -41,7 +41,7 @@ to make a pull request with your proposal for change.
 Make a wordlist in your own language. It's fairly 
 easy if your language is used in Apertium. See www.apertium.org
 Otherwise, you can gather a lot of text to make a large corpus and create a 
-frequenzy list. Remove long and infrequent words. Nouns and verbs are a first 
+frequency list. Remove long and infrequent words. Nouns and verbs are a first 
 hand choice. Please, look in the folder 'resources' for more information.
 
 This work is based on the original idea from A G Reinhold in 1995:

@@ -28,7 +28,7 @@ short list for 4 dice instead. Then you have to remember 8 words, but they are
 more current.
 
 If you get some words you don't recognize in your password, or don't know what 
-they mean: look them up in a dictionnary or search for them on the internet to 
+they mean: look them up in a dictionary or search for them on the internet to 
 learn what they stand for. They will then be more easy for you to remember.
 
 4 dice list
@@ -79,7 +79,7 @@ Description
 ===========
 Many years ago I intended to make a Swedish version of the DiceWare* word
 list, without the strange numbers and combinations of characters. However,
-it turned out to be difficult to find words, thus I put the projekt aside.
+it turned out to be difficult to find words, thus I put the project aside.
 Now, I realized the possibility to create a new word list based on 
 Apertiums new Swedish word list apertium-swe.swe.dix (For more information 
 on Apertium, please see www.apertium.org) Apertium has to be distributed 
@@ -97,10 +97,10 @@ Thus, I started with the short list with words of at most 4 characters, not
 containing the letters å, ä or ö. I began with filtering the words from 
 Apertium, with the help of my own list of correctly spelled words, most of 
 them with high frequency. Then I manually removed rare words, partly by the 
-help of a word frequenzy list. Additionnally, I have removed homophones and 
+help of a word frequency list. Additionally, I have removed homophones and 
 vulgar words.
 
-On the contrary, I haven't excluded words that might be the begining or the 
+On the contrary, I haven't excluded words that might be the beginning or the 
 end of other words. Hence, you should write the words with a separator, e.g. 
 space, between them. Otherwise, the number of possible combinations will 
 decrease slightly, and thus the security as well.
@@ -108,12 +108,12 @@ decrease slightly, and thus the security as well.
 Later, I finished the longer list for 5 dice with words of at most 6 letters.
 This list is not as thoroughly checked as the shorter list for 4 dice. The 
 words are checked against stop-lists with e.g. potentially offensive words and 
-homophones. Additionnally, they are spell checked with Hunspell.
+homophones. Additionally, they are spell checked with Hunspell.
 
 Propose ameliorations
 =====================
 If you find words you don't like, feel free to make a pull request with your 
-proposal for change. All nouns and verbs I got from Apertium, exept those 
+proposal for change. All nouns and verbs I got from Apertium, except those 
 filtered out, are already used in the long list. Some adjectives are used as 
 well. You can find new words to choose among in the file adjectives_not_used.txt 
 
@@ -122,7 +122,7 @@ Contribute a word list
 Contributions are welcome! Make a wordlist in your own language. It's fairly 
 easy if your language is used in Apertium. See www.apertium.org
 Otherwise, you can gather a lot of text to make a large corpus and create a 
-frequenzy list. Remove long and infrequent words. Nouns and verbs are a first 
+frequency list. Remove long and infrequent words. Nouns and verbs are a first 
 hand choice.
 
 Per Tunedal
