@@ -2,7 +2,7 @@
     Author: Per Tunedal <info@tunedal.nu>
 
     This file is part of Dicelist. Word lists for making secure 
-    passwords with the help of 4-5 dice.
+    passwords with the help of 4-5 dices.
 
     Dicelist is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -19,12 +19,12 @@
 
 Advice
 ======
-The list for 5 dice contains 7776 words of 2-6 letters, while the list 
-for 4 dice contains 1296 words of 2-4 letters.
+The list for 5 dices contains 7776 words of 2-6 letters, while the list 
+for 4 dices contains 1296 words of 2-4 letters.
 
-Preferably, use the list for 5 dice. Then you have to remember just 6 words. 
+Preferably, use the list for 5 dices. Then you have to remember just 6 words. 
 If it's important to you that the words are short and not uncommon, use the 
-short list for 4 dice instead. Then you have to remember 8 words, but they are 
+short list for 4 dices instead. Then you have to remember 8 words, but they are 
 more current.
 
 If you get some words you don't recognize in your password, or don't know what 
@@ -35,7 +35,7 @@ learn what they stand for. They will then be more easy for you to remember.
 ===========
 Usage
 -----
-Use 4 dice to randomly get a combination of digits between 1111 and 6666, that 
+Use 4 dices to randomly get a combination of digits between 1111 and 6666, that 
 corresponds to a word in the list. The combination 1234 corresponds e.g. to the 
 word "avog" and the combination 5316 corresponds to the word "roa". You need to 
 get at least 8 words to form a secure password. Separate the words in some way, 
@@ -57,7 +57,7 @@ of 12 random characters.
 ===========
 Usage
 -----
-Use 5 dice to randomly get a combination of digits between 11111 and 66666, that 
+Use 5 dices to randomly get a combination of digits between 11111 and 66666, that 
 corresponds to a word in the list. The combination 12345 corresponds e.g. to the 
 word "avig" and the combination 53164 corresponds to the word "samsas". You need to 
 get at least 6 words to form a secure password. Separate the words in some way, 
@@ -89,7 +89,7 @@ Now, I was inspired by the alternative word lists compiled by The
 Electronic Frontier Foundation (EFF) in the year 2016. They have tried to 
 avoid the inclusion of rare words, words that are hard to spell and vulgar 
 words. Further more, they have made a shorter list of short and easy words for 
-4 dice, as a complement to the word list for 5 dice. The short list requires 
+4 dices, as a complement to the word list for 5 dices. The short list requires 
 at least 8 words in a password, opposed to only 6 words if you use the longer 
 list.
 
@@ -105,8 +105,8 @@ end of other words. Hence, you should write the words with a separator, e.g.
 space, between them. Otherwise, the number of possible combinations will 
 decrease slightly, and thus the security as well.
 
-Later, I finished the longer list for 5 dice with words of at most 6 letters.
-This list is not as thoroughly checked as the shorter list for 4 dice. The 
+Later, I finished the longer list for 5 dices with words of at most 6 letters.
+This list is not as thoroughly checked as the shorter list for 4 dices. The 
 words are checked against stop-lists with e.g. potentially offensive words and 
 homophones. Additionnally, they are spell checked with Hunspell.
 
