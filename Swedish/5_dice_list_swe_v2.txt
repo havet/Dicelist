@@ -17,6 +17,13 @@
     You should have received a copy of the GNU General Public License
     along with Tunedal Dice Lists.  If not, see <https://www.gnu.org/licenses/>.
 
+Credits
+-------
+This work is based on the original idea from A G Reinhold in 1995:
+http://world.std.com/~reinhold/diceware.html 
+and partly on EFF:s ideas from 2016: 
+https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases
+
 Usage
 -----
 Use 5 dice to randomly get a combination of digits between 11111 and 66666, that 
