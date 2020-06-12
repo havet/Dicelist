@@ -44,10 +44,13 @@ Otherwise, you can gather a lot of text to make a large corpus and create a
 frequenzy list. Remove long and infrequent words. Nouns and verbs are a first 
 hand choice. Please, look in the folder 'resources' for more information.
 
+This work is based on the original idea from A G Reinhold in 1995:
+http://world.std.com/~reinhold/diceware.html
+and EFF:s ideas from 2016:
+https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases
+
 Per Tunedal
 
-* Diceware is a trademark of A G Reinhold. 
-http://world.std.com/~reinhold/diceware.html
 
 License
 =======
